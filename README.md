@@ -1,1 +1,5 @@
-# RegulaFalsiMethod
+The Regula Falsi method, also known as the False Position method, is an iterative technique used to find approximate solutions to equations, particularly those that are difficult to solve analytically. Although it's primarily used for solving nonlinear equations, it can also be adapted to find approximate solutions to definite integrals.
+Key Characteristics:
+Root-Finding: The method focuses on finding the roots of an equation by iteratively narrowing down the interval where the root lies. It requires two initial guesses where the function changes sign, indicating that a root exists between these points.
+Linear Interpolation: The method assumes that the function behaves linearly between the two initial guesses. It then draws a straight line (secant line) between the points on the function corresponding to these guesses. The intersection of this line with the x-axis provides a new approximation for the root.
+Convergence: Unlike the bisection method, Regula Falsi does not necessarily bisect the interval. Instead, it uses the secant line to potentially accelerate convergence by focusing more on the side of the interval where the function changes more rapidly.
